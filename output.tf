@@ -3,7 +3,7 @@ output "VPC" {
 }
 
 output "public_subnet" {
-  value = "${aws_subnet.public.id}"
+  value = "${aws_subnet.public-a.id}"
 }
 
 output "private_subnet" {
@@ -11,7 +11,11 @@ output "private_subnet" {
 }
 
 output "pub_sec_group" {
-  value = "${aws_security_group.public.id}"
+  value = "${aws_security_group.public-b.id}"
+}
+
+  output "pub_sec_group" {
+  value = "${aws_security_group.public-c.id}"
 }
 output "private_sec_group" {
   value = "${aws_security_group.privateDB.id}"
