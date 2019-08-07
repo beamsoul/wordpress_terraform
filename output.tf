@@ -7,7 +7,7 @@ output "public_subnet" {
 }
 
 output "private_subnet" {
-  value = "${aws_subnet.private.id}"
+  value = "${aws_subnet.private-a.id}"
 }
 
   output "pub_sec_group" {
