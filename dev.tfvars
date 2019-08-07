@@ -15,3 +15,4 @@ desired_app_capacity        = 3
 min_db_size                = 3
 max_db_size                = 6
 desired_db_capacity        = 3
+vpc_zone_identifier        = "private-sb"
